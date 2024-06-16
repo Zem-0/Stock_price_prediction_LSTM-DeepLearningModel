@@ -1,4 +1,5 @@
-# Stock_price_prediction-ML_Model
+# Stock Price Prediction - ML Model
+
 ## Overview
 
 This repository contains a Long Short-Term Memory (LSTM) model implemented using Keras for stock analysis. The model is designed to predict stock prices based on historical data.
@@ -17,6 +18,8 @@ The project is structured into several key sections, each addressing specific as
 2. **Data Analysis and Visualization:**
    - Conduct exploratory data analysis (EDA) to understand stock characteristics.
    - Visualize key metrics, trends, and relationships using matplotlib and seaborn.
+   - ![Correlation Matrix](https://github.com/Zem-0/Stock_price_prediction_LSTM-DeepLearningModel/blob/main/coor.png)
+   - ![closing graph](https://github.com/Zem-0/Stock_price_prediction_LSTM-DeepLearningModel/blob/main/closing.png)
 
 3. **Moving Averages and Technical Indicators:**
    - Calculate and visualize moving averages (10, 20, and 50 days) to identify trends.
@@ -48,15 +51,17 @@ The project addresses the following questions:
 5. How much value do we put at risk by investing in a particular stock?
 6. How can we attempt to predict future stock behavior?
 
+## Graphs and Prediction
+
+![Google Stock Prediction](https://github.com/Zem-0/Stock_price_prediction_LSTM-DeepLearningModel/blob/main/goog.png)
+
+![Amazon Stock Prediction](https://github.com/Zem-0/Stock_price_prediction_LSTM-DeepLearningModel/blob/main/amazn.png)
+
 ## Conclusion
 
 The Stock Analysis and Prediction project aims to empower users with a comprehensive understanding of historical stock trends, risk assessment strategies, and the potential for future price prediction using advanced deep learning techniques. By leveraging this information, investors can make more informed decisions in the dynamic world of financial markets.
 
 Feel free to explore the Jupyter notebooks for detailed code implementations and analyses.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Resources
 
@@ -67,3 +72,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [NumPy Documentation](https://numpy.org/)
 - [Pandas Documentation](https://pandas.pydata.org/)
 - [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
+
